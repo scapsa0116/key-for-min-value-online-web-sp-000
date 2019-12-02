@@ -7,4 +7,12 @@ name_hash.collect do |a, b|
   end
 end
 
-
+name_hash do |a, b|
+  if a == b
+    0
+  elsif a < b
+    -1
+  elsif a > b
+    1
+  end
+end
