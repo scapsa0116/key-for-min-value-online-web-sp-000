@@ -17,4 +17,4 @@ name_hash do |a, b|
   elsif a > b
     1
   end
-end
+
